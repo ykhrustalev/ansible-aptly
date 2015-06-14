@@ -87,13 +87,14 @@ galaxy_info:
   #  versions:
   #  - all
   #  - any
-  #- name: Debian
-  #  versions:
-  #  - all
+  - name: Debian
+    versions:
+#    - all
   #  - etch
   #  - lenny
-  #  - squeeze
-  #  - wheezy
+    - squeeze
+    - wheezy
+    - jessie
   #
   # Below are all categories currently available. Just as with
   # the platforms above, uncomment those that apply to your role.
